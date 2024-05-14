@@ -10,7 +10,8 @@ services:
     name: todo_backend_new
     runtime: python
     buildCommand: "./build.sh"
-    startCommand: "python -m gunicorn todo_backend_new.asgi:application -k uvicorn.workers.UvicornWorker"    envVars:
+    startCommand: "python -m gunicorn todo_backend_new.asgi:application -k uvicorn.workers.UvicornWorker"    
+    envVars:
       - key: DATABASE_URL
         fromDatabase:
           name: mysitedb
