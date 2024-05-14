@@ -6,3 +6,5 @@ whitenoise[brotli]
 psycopg2
 gunicorn
 uvicorn
+psycopg2-binary
+dj-database-url
