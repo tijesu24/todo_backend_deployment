@@ -1,0 +1,8 @@
+django 
+djangorestframework 
+django-cors-headers 
+djangorestframework-simplejwt
+whitenoise[brotli]
+psycopg2
+gunicorn
+uvicorn
