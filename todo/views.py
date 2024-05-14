@@ -56,3 +56,11 @@ class UserCreate(APIView):
                 return Response(serializer.data, status=status.HTTP_201_CREATED)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+class HomeClass:
+    def home(self, request):
+        """Renders a simple 'Hello, World!' HTML response for the root URL."""
+        context = {'message': 'Hello, World!'}  # Pass context for dynamic content
+        # Render the 'home.html' template
+        return render(request, 'home.html', context)
