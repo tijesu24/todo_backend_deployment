@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-72w_&gu!!sgz9q#5n0zcsu4_gya1j0)@9zr8-zwe^)z4m3elof
 
 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1',
-                 'todo-backend-new-nqhg.onrender.com']
+                 'todo-backend-new-u6m3.onrender.com']
 
 
 # Application definition
